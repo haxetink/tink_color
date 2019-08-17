@@ -1,0 +1,18 @@
+{
+	"name": "tink_color",
+	"description": "Tinkerbell Color Utilities",
+	"classPath": "src",
+	"url": "http://haxetink.org/tink_color",
+	"contributors": [
+		"back2dos"
+	],
+	"version": "0.0.0",
+	"releasenote": "Improve JS interop. Use latest Haxe 4. Add Lazy.NULL.",
+	"tags": [
+		"tink",
+		"cross",
+		"utility",
+		"color"
+	],
+	"license": "MIT"
+}
