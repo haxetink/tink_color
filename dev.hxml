@@ -1,4 +1,4 @@
 -cp src
 tests.hxml
 -lib travix
--neko bin/tests.n
+--interp
