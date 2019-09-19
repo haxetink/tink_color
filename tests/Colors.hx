@@ -5,14 +5,14 @@ import tink.color.*;
 @:asserts
 class Colors {
 
-  static final BLACK   = Color.rgb(0x00, 0x00, 0x00);
-  static final RED     = Color.rgb(0xFF, 0x00, 0x00);
-  static final YELLOW  = Color.rgb(0xFF, 0xFF, 0x00);
-  static final GREEN   = Color.rgb(0x00, 0xFF, 0x00);
-  static final CYAN    = Color.rgb(0x00, 0xFF, 0xFF);
-  static final BLUE    = Color.rgb(0x00, 0x00, 0xFF);
-  static final PINK    = Color.rgb(0xFF, 0x00, 0xFF);
-  static final WHITE   = Color.rgb(0xFF, 0xFF, 0xFF);
+  static var BLACK   = Color.rgb(0x00, 0x00, 0x00);
+  static var RED     = Color.rgb(0xFF, 0x00, 0x00);
+  static var YELLOW  = Color.rgb(0xFF, 0xFF, 0x00);
+  static var GREEN   = Color.rgb(0x00, 0xFF, 0x00);
+  static var CYAN    = Color.rgb(0x00, 0xFF, 0xFF);
+  static var BLUE    = Color.rgb(0x00, 0x00, 0xFF);
+  static var PINK    = Color.rgb(0xFF, 0x00, 0xFF);
+  static var WHITE   = Color.rgb(0xFF, 0xFF, 0xFF);
 
   public function new() {}
 
