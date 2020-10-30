@@ -134,6 +134,9 @@ abstract Color(Int) {
     );
   }
 
+  public function toCss()
+    return 'rgba($red, $green, $blue, ${alpha / 0xFF}})';
+
   public inline function invert()
     return new Color((this & 0xFF000000) | (~this & 0x00FFFFFF));
 
