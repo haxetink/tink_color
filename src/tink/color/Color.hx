@@ -90,7 +90,7 @@ abstract Color(Int) {
         h /= 360;
 
         h = h % 1;
-        if (h < 1) h = 1;
+        if (h < 0) h += 1;
         if (s < 0) s = 0 else if (s > 1) s = 1;
         if (v < 0) v = 0 else if (v > 1) v = 1;
 
