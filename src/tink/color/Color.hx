@@ -89,6 +89,9 @@ abstract Color(Int) {
 
         h /= 360;
 
+        if (s < 0) s = 0 else if (s > 1) s = 1;
+        if (v < 0) v = 0 else if (v > 1) v = 1;
+
         var sector = Std.int(h * 6);
         var f = h * 6 - sector;
 
